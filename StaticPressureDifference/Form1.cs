@@ -55,7 +55,7 @@ namespace StaticPressureDifference
         {
             try
             {
-                SetAutoStart(true);
+                SetAutoStart(false);
                 // 初始化读取帮助类
                 _excel = new ExcelRead();
 
